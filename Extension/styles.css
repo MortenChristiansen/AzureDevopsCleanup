@@ -1,0 +1,28 @@
+#__bolt-ms-vss-web-home-hub-group, /* Overview */
+#__bolt-ms-vss-test-web-test-hub-group, /* Test Plans */
+
+#__bolt-ms-vss-work-web-new-work-items-hub, /* Boards - Work Items */
+#__bolt-ms-vss-work-web-boards-hub, /* Boards - Boards */
+#__bolt-ms-vss-work-web-query-hub, /* Boards - Queries */
+#__bolt-ms-vss-plans-vss-plans-hub, /* Boards - Plans */
+#__bolt-agile-extensions-personas-hub, /* Boards - Personas */
+#__bolt-ms-devlabs-team-retrospectives-home, /* Boards - Retrospectives */
+#__bolt-ms-devlabs-team-calendar-calendar, /* Boards - Calendar */
+#__bolt-agile-extensions-product-vision-work-hub, /* Boards - Product Vision */
+#__bolt-ms-devlabs-estimate-Estimate-Main, /* Boards - Estimate */
+#__bolt-techtalk-specmap-specmap-unlicensed, /* Boards - Spec Map */
+#__bolt-YodLabs-TagsManager2-tags-manager-work, /* Boards - Tags */
+
+#__bolt-ms-vss-code-web-commits-hub, /* Repos - Commits */
+#__bolt-ms-vss-code-web-pushes-hub, /* Repos - Pushes */
+#__bolt-ms-vss-code-web-branches-hub, /* Repos - Branches */
+#__bolt-ms-vss-code-web-tags-hub, /* Repos - Tags */
+#__bolt-ottostreifel-pull-request-search-pr-search-hub, /* Repos - Pull Request Search */
+#__bolt-ryanstedman-tfs-pullrequest-dashboard-tfs-pullrequest-dashboard, /* Repos - Pull Request Dashboard */
+#__bolt-sierpinski-blitz-allpulls-extension-BlitzActivePulls, /* Repos - Active Pull Requests */
+
+#__bolt-whitesource-ws-bolt-build-hub-wss, /* Pipelines - WhiteSource Bolt */
+#__bolt-YodLabs-TagsManager2-tags-manager-build-release /* Pipelines - Build Tags */
+{
+    display: none;
+}

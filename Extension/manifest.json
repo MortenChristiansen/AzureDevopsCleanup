@@ -1,0 +1,13 @@
+{
+  "manifest_version": 2,
+ 
+  "name": "Clean up Azure Devops",
+  "version": "0.1.0",
+  "description": "Disables unwanted menu items from Azure Devops",
+ 
+  "content_scripts": [{
+    "css": ["styles.css"],
+    "js": [],
+    "matches": ["https://kmddk.visualstudio.com/*"]
+  }]
+}
