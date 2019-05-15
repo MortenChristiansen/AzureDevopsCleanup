@@ -1,3 +1,4 @@
+/* Menu Items*/
 #__bolt-ms-vss-web-home-hub-group, /* Overview */
 #__bolt-ms-vss-test-web-test-hub-group, /* Test Plans */
 
@@ -22,7 +23,11 @@
 #__bolt-sierpinski-blitz-allpulls-extension-BlitzActivePulls, /* Repos - Active Pull Requests */
 
 #__bolt-whitesource-ws-bolt-build-hub-wss, /* Pipelines - WhiteSource Bolt */
-#__bolt-YodLabs-TagsManager2-tags-manager-build-release /* Pipelines - Build Tags */
+#__bolt-YodLabs-TagsManager2-tags-manager-build-release, /* Pipelines - Build Tags */
+
+/* Work Item Form Elements */
+.work-item-form-tabs .work-item-form-tab:nth-of-type(2), /*  Launch Darkly tab */
+li[command=work-item-follow] /* Follow */
 {
-    display: none;
+    display: none !important;
 }
