@@ -25,6 +25,32 @@
 #__bolt-whitesource-ws-bolt-build-hub-wss, /* Pipelines - WhiteSource Bolt */
 #__bolt-YodLabs-TagsManager2-tags-manager-build-release, /* Pipelines - Build Tags */
 
+/* Expanded menu items */
+#__bolt-ms-vss-work-web-new-work-items-hub-link,
+#__bolt-ms-vss-work-web-boards-hub-link,
+#__bolt-ms-vss-work-web-query-hub-link,
+#__bolt-ms-vss-plans-vss-plans-hub-link,
+#__bolt-agile-extensions-personas-hub-link,
+#__bolt-ms-devlabs-team-retrospectives-home-link,
+#__bolt-ms-devlabs-workitem-feature-timeline-extension-workitem-portfolio-planning-link,
+#__bolt-TimeLog-time-logging-extension-time-log-summary-link,
+#__bolt-ms-devlabs-team-calendar-team-calendar-link,
+#__bolt-agile-extensions-product-vision-work-hub-link,
+#__bolt-ms-devlabs-estimate-estimate-hub-link,
+#__bolt-techtalk-specmap-hub-link,
+#__bolt-ms-eswm-dependencytracker-dependencytracker-hub-link,
+#__bolt-YodLabs-TagsManager2-tags-manager-work-link,
+#__bolt-ms-vss-code-web-commits-hub-new-link,
+#__bolt-ms-vss-code-web-new-pushes-hub-link,
+#__bolt-ms-vss-code-web-branches-hub-new-link,
+#__bolt-ms-vss-code-web-new-tags-hub-link,
+#__bolt-ryanstedman-tfs-pullrequest-dashboard-tfs-pullrequest-dashboard-link,
+#__bolt-sierpinski-blitz-allpulls-extension-BlitzActivePulls-linkm
+#__bolt-ms-vss-distributed-task-hub-task-groups-link,
+#__bolt-ms-vss-releaseManagement-web-hub-machinegroup-link,
+#__bolt-whitesource-ws-bolt-build-hub-wss-link,
+#__bolt-YodLabs-TagsManager2-tags-manager-build-release-link,
+
 /* Work Item Form Elements */
 .work-item-form-tabs .work-item-form-tab:nth-of-type(2), /*  Launch Darkly tab */
 li[command=work-item-follow] /* Follow */
