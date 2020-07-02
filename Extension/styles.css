@@ -83,3 +83,118 @@ li[command=work-item-follow] /* Follow */
 {
     display: none !important;
 }
+
+
+
+/* Taskboard cleanup */
+
+.taskboard-row.ui-droppable {
+    /* This controls the display of collapsed stories */
+    display: none;
+}
+
+#expand-collapse-button {
+    display: none !important;
+}
+
+.tbTile {
+    margin: 2px !important;
+    font-size: 8pt !important;
+    border-radius: 3px;
+  }
+
+  .tbTile .tbTileContent{
+    border-radius: 0 3px 3px 0;
+  }
+  
+  .tbTile.childTbTile {
+    width: 230px !important;
+  }
+
+  .tbTile .identity-picker-resolved-name {
+    display: none;
+  }
+  
+  .tbTile .work-item-type-icon-host {
+      display: none;
+  }
+  
+  .tbTile .id {
+    display: none !important;
+}
+
+  .tbTile .id-title-container {
+    margin: 0 !important;
+    margin-left: 32px !important;
+    min-height: 34px !important;
+  }
+  
+  .tbTile .container.witExtra {
+    position: absolute;
+    top: 4px;
+    left: -4px;
+  }
+
+  .taskboard-cell {
+    padding: 0 !important;
+    border-bottom-width: 0 !important;
+    border-left: solid 2px !important;
+    border-left-color: rgba(255,255,255,1) !important;
+    border-left-color: rgba(var(--palette-neutral-0,255, 255, 255),1) !important;
+  }
+
+  .taskboard-row-summary .witTitle  {
+    font-size: 11px !important;
+  }
+
+  .taskboard-row-summary .taskboard-expander {
+    padding-top: 0 !important;
+  }
+
+  .taskboard-row-summary .tbPivotItem, .taskboard-row-summary .tbPivotItem .title {
+      line-height: unset !important;
+      margin-bottom: 0 !important;
+  }
+
+  .vss-FilterBar {
+      padding: 0 !important;
+      margin-top: 2px !important;
+      margin-bottom: 0 !important;
+  }
+
+  .taskboard-cell .board-add-card {
+      left: unset !important;
+      right: 5px !important;
+  }
+
+  .parentTbTile .tbTileContent .title {
+      font-size: 11px !important;
+  }
+
+  th .witState {
+      font-size: 9px !important;
+      padding-left: 2px;
+  }
+
+  .taskboard .taskboardTableBodyScrollContainer.scrollable {
+      top: 18px !important;
+  }
+
+  .taskboard .taskboardTableBodyScrollContainer #taskboard-table-body {
+      width: unset !important;
+  }
+
+  .sprint-view-container .vss-PivotBar .vss-PivotBarItem.customPadding {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+
+  .taskboard .bowtie-toggle-tree-expanded {
+      display: none !important;
+  }
+
+  .taskboard-expander {
+    min-width: 0px !important;
+    width: 0 !important;
+    max-width: 0 !important;
+  }
