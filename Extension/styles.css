@@ -198,3 +198,15 @@ li[command=work-item-follow] /* Follow */
     width: 0 !important;
     max-width: 0 !important;
   }
+
+  .taskboard-row:hover .taskboard-cell.ui-droppable {
+    background-color: #2f2f2f;
+  }
+
+  .tableHeaderInnerContainer {
+    padding-left: 200px;
+  }
+
+  #taskboard-table-header {
+    width: 100% !important;
+  }
