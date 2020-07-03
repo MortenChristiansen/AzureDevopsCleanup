@@ -210,3 +210,8 @@ li[command=work-item-follow] /* Follow */
   #taskboard-table-header {
     width: 100% !important;
   }
+
+  .taskboard .id-title-container .title .clickable-title {
+    display: inline-block !important;
+    line-height: 13px;
+  }
