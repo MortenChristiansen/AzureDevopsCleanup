@@ -215,3 +215,11 @@ li[command=work-item-follow] /* Follow */
     display: inline-block !important;
     line-height: 13px;
   }
+
+  .field-container[field="System.State"] {
+    display: none;
+  }
+
+  .taskboard-row .tags {
+    display: none;
+  }
