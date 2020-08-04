@@ -223,3 +223,8 @@ li[command=work-item-follow] /* Follow */
   .taskboard-row .tags {
     display: none;
   }
+  
+
+  .blocked-story {
+    background-color: #990000 !important;
+  }
