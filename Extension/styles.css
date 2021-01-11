@@ -7,7 +7,7 @@
 #__bolt-ms-vss-work-web-query-hub, /* Boards - Queries */
 #__bolt-ms-vss-plans-vss-plans-hub, /* Boards - Plans */
 #__bolt-agile-extensions-personas-hub, /* Boards - Personas */
-#__bolt-ms-devlabs-team-retrospectives-home, /* Boards - Retrospectives */
+/*#__bolt-ms-devlabs-team-retrospectives-home,*/ /* Boards - Retrospectives */
 #__bolt-ms-devlabs-team-calendar-calendar, /* Boards - Calendar */
 #__bolt-agile-extensions-product-vision-work-hub, /* Boards - Product Vision */
 #__bolt-ms-devlabs-estimate-Estimate-Main, /* Boards - Estimate */
@@ -36,8 +36,8 @@
 #__bolt-ms-vss-plans-vss-plans-hub,
 #__bolt-agile-extensions-personas-hub-link,
 #__bolt-agile-extensions-personas-hub,
-#__bolt-ms-devlabs-team-retrospectives-home-link,
-#__bolt-ms-devlabs-team-retrospectives-home,
+/*#__bolt-ms-devlabs-team-retrospectives-home-link,*/
+/*#__bolt-ms-devlabs-team-retrospectives-home,*/
 #__bolt-ms-devlabs-workitem-feature-timeline-extension-workitem-portfolio-planning-link,
 #__bolt-ms-devlabs-workitem-feature-timeline-extension-workitem-portfolio-planning,
 #__bolt-TimeLog-time-logging-extension-time-log-summary-link,
@@ -76,9 +76,15 @@
 #__bolt-YodLabs-TagsManager2-tags-manager-build-release,
 #__bolt-ottostreifel-pull-request-search-pr-search-hub-link,
 #__bolt-ottostreifel-pull-request-search-pr-search-hub,
+#__bolt-ottostreifel-wiql-editor-wiql-playground-hub,
+#__bolt-KMDTimesheet-Kmd-Timesheet-kmd-timesheet,
 
 /* Work Item Form Elements */
-.work-item-form-tabs .work-item-form-tab:nth-of-type(2), /*  Launch Darkly tab */
+.work-item-form-tabs .work-item-form-tab:nth-of-type(2), /*  Timelog */
+.work-item-form-tabs .work-item-form-tab:nth-of-type(3), /*  Timesheet */
+.work-item-form-tabs .work-item-form-tab:nth-of-type(4), /*  Release notes */
+.work-item-form-tabs .work-item-form-tab:nth-of-type(5), /*  Launch darkly */
+.work-item-form-tabs .work-item-form-tab:nth-of-type(7), /*  Links */
 li[command=work-item-follow] /* Follow */
 {
     display: none !important;
@@ -112,6 +118,10 @@ li[command=work-item-follow] /* Follow */
   }
 
   .tbTile .identity-picker-resolved-name {
+    display: none;
+  }
+
+  .tbTile .additional-field {
     display: none;
   }
   
@@ -227,4 +237,12 @@ li[command=work-item-follow] /* Follow */
 
   .blocked-story {
     background-color: #990000 !important;
+  }
+
+  .custom-style-applied {
+    background-color: rgb(32, 31, 30) !important;
+  }
+
+  .taskboard-cell .title span {
+    color: white !important;
   }
