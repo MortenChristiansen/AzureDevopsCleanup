@@ -89,7 +89,8 @@
 .work-item-form-tabs .work-item-form-tab:nth-of-type(7), /*  Links */
 li[command=work-item-follow] /* Follow */
 {
-    display: none !important;
+    /*display: none !important;*/
+    opacity: 0.2;
 }
 
 

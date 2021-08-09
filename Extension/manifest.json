@@ -2,7 +2,7 @@
   "manifest_version": 2,
  
   "name": "Clean up Azure Devops",
-  "version": "0.4.1",
+  "version": "0.4.2",
   "description": "Disables unwanted UI elements from Azure Devops",
  
   "content_scripts": [{
