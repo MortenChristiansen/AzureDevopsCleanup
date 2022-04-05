@@ -96,7 +96,17 @@ li[command=work-item-follow] /* Follow */
 }
 
 
-/* Taskboard cleanup */
+/* -- Work item details tabs -- */
+
+.wif-tabbar [aria-label="Time Log"],
+.wif-tabbar [aria-label="Definition of Done"],
+.wif-tabbar [aria-label="KMD Timesheet"],
+.wif-tabbar [aria-label="Release notes"],
+.wif-tabbar [aria-label="LaunchDarkly"] {
+  display: none !important;
+}
+
+/* -- Taskboard cleanup --  */
 
 /* HIde assignee name */
 .bolt-table-container .identity-display-name {
@@ -168,4 +178,29 @@ li[command=work-item-follow] /* Follow */
 /* Hide collapsed rows */
 .taskboard-collapsed-row {
   display: none;
+}
+
+/* Make task cards dark */
+.taskboard-expanded-cell .taskboard-card {
+  background-color: #444 !important;
+}
+.taskboard-expanded-cell .card-content .title-text {
+  margin-left: 18px !important;
+  color: white !important;
+}
+
+/* Reduce table cell border */
+.taskboard-expanded-cell {
+  border-top: 1px solid #222 !important;
+  border-right: 1px solid #222 !important;
+}
+
+/* Remove card border */
+.wit-card .card-content  {
+  border:none !important;
+}
+
+/* Remove row collapse buttons */
+.taskboard-expand-collapse-button {
+  display:none !important;
 }
