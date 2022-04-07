@@ -108,8 +108,8 @@ li[command=work-item-follow] /* Follow */
 
 /* -- Taskboard cleanup --  */
 
-/* HIde assignee name */
-.bolt-table-container .identity-display-name {
+/* Hide assignee name */
+.card-content .identity-display-name {
   display: none;
 }
 
