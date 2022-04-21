@@ -161,7 +161,7 @@ li[command=work-item-follow] /* Follow */
 }
 
 /* Hide tag list on user story*/
-.bolt-table-container .tags-list {
+.taskboard-parent-cell .tags-list {
   display: none;
 }
 
