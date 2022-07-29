@@ -231,6 +231,6 @@ li[command=work-item-follow] /* Follow */
 }
 
 /* Fix board double scroll bars */
-.full-height {
+.page-content-top > .full-height {
   height: unset !important;
 }
