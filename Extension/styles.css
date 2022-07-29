@@ -84,6 +84,31 @@
   display: none !important;
 }
 
+.hub-group-container .hub[aria-label="Boards"],
+.hub-group-container .hub[aria-label="Queries"],
+.hub-group-container .hub[aria-label="Delivery Plans"],
+.hub-group-container .hub[aria-label="KMD Timesheet"],
+.hub-group-container .hub[aria-label="Retrospectives"],
+.hub-group-container .hub[aria-label="Calendar"],
+.hub-group-container .hub[aria-label="Pushes"],
+.hub-group-container .hub[aria-label="PR Completion Stats"]
+{
+    display: none !important;
+}
+
+.bolt-menuitem-row[href="/kmddk/Studica/_boards"],
+.bolt-menuitem-row[href="/kmddk/Studica/_queries"],
+.bolt-menuitem-row[href="/kmddk/Studica/_deliveryplans/plans"],
+.bolt-menuitem-row[href="/kmddk/Studica/_plans"],
+.bolt-menuitem-row[href="/kmddk/Studica/_apps/hub/agile-extensions.personas.hub"],
+.bolt-menuitem-row[href="/kmddk/Studica/_apps/hub/KMDTimesheet.KMDTimesheet-PROD.kmd-timesheet"],
+.bolt-menuitem-row[href="/kmddk/Studica/_apps/hub/ms-devlabs.team-retrospectives.home"],
+.bolt-menuitem-row[href="/kmddk/Studica/_apps/hub/ms-devlabs.team-calendar.team-calendar"],
+.bolt-menuitem-row[href="/kmddk/Studica/_apps/hub/OneLuckiDev.prApprovalReport.onelucki-pr-completion-report"]
+{
+  display: none !important;
+}
+
 /* Work Item Form Elements */
 .work-item-form-tabs .work-item-form-tab:nth-of-type(2), /*  Timelog */
 .work-item-form-tabs .work-item-form-tab:nth-of-type(3), /*  Timesheet */
@@ -203,4 +228,9 @@ li[command=work-item-follow] /* Follow */
 /* Remove row collapse buttons */
 .taskboard-expand-collapse-button {
   display:none !important;
+}
+
+/* Fix board double scroll bars */
+.full-height {
+  height: unset !important;
 }
