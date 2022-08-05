@@ -8,8 +8,7 @@
   "content_scripts": [{
     "css": ["styles.css"],
     "js": [],
-    "matches": ["https://kmddk.visualstudio.com/*", "https://dev.azure.com/*"],
-    "all_frames": true
+    "matches": ["https://kmddk.visualstudio.com/*", "https://dev.azure.com/*"]
   },{
     "css": ["devlabs-styles.css"],
     "js": [],
