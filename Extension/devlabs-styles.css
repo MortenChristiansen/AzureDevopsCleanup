@@ -1,0 +1,15 @@
+/* Optimize spacing for retrospective board */
+
+.feedback-board .card-header {
+    position: absolute !important;
+}
+.feedback-board .ms-DocumentCardActivity  {
+    display: none !important;
+}
+.feedback-board .editable-document-card-title {
+    min-height: unset !important;
+}
+
+.feedback-board .feedbackItem {
+    margin-bottom: 0 !important;
+}

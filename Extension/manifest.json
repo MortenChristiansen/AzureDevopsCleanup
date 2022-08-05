@@ -2,12 +2,18 @@
   "manifest_version": 3,
  
   "name": "Clean up Azure Devops",
-  "version": "0.5.5",
+  "version": "0.6.0",
   "description": "Disables unwanted UI elements from Azure Devops",
  
   "content_scripts": [{
     "css": ["styles.css"],
     "js": [],
-    "matches": ["https://kmddk.visualstudio.com/*", "https://dev.azure.com/*"]
+    "matches": ["https://kmddk.visualstudio.com/*", "https://dev.azure.com/*"],
+    "all_frames": true
+  },{
+    "css": ["devlabs-styles.css"],
+    "js": [],
+    "matches": ["https://ms-devlabs.gallerycdn.vsassets.io/*"],
+    "all_frames": true
   }]
 }
